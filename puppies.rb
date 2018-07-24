@@ -1,7 +1,7 @@
 # 1. Write a method called no_puppies that takes in a number of puppies as an argument. If the number of puppies is greater than zero then this method should return "No more puppies!" otherwise it should return "Well done, Rachel!"
 #method with argument
 num_puppies = 2
-def no_puppies(num_puppies)
+def num_puppies
   if num_puppies > 0
     puts "No more puppies!"
   else "Well done, Rachel!"
